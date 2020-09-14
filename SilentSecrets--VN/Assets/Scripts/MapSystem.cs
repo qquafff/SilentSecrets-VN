@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MapSystem : MonoBehaviour
 {
     public GameObject Map;
-    public string levelName; 
+     
 
     void mapOpen ()
     {
@@ -18,7 +18,7 @@ public class MapSystem : MonoBehaviour
         Map.SetActive(false);
     }
 
-    void SceneLoader()
+    public void SceneLoader(string levelName)
     {
         SceneManager.LoadScene(levelName);
     }
