@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
+
+    public GameObject pauseMenu;
+    public GameObject pauseMenuBtn;
+
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -39,4 +43,23 @@ public class SceneHandler : MonoBehaviour
         asyncOperation.allowSceneActivation = true;
 
     }
+
+    public void pauseMenuOpen()
+    {
+        pauseMenu.SetActive(true);
+        pauseMenuBtn.SetActive(false);
+    }
+
+    public void pauseMenuClose()
+    {
+        pauseMenu.SetActive(false);
+        pauseMenuBtn.SetActive(true);
+    }
+
+    public void ApplicationQuit()
+    {
+        Application.Quit();
+    }
+
 }
+

@@ -30,7 +30,7 @@ public class UIManagerStart : MonoBehaviour
     Player_Container.SetActive(false);
     textBox.SetActive(false);
 
-    if (Input.GetKeyDown(KeyCode.Return))
+    if (Input.GetKeyDown(KeyCode.Space))
     {
        if (!VD.isActive)
        {
@@ -48,7 +48,7 @@ public class UIManagerStart : MonoBehaviour
 // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!VD.isActive)
         {

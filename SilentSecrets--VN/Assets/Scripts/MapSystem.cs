@@ -8,12 +8,12 @@ public class MapSystem : MonoBehaviour
     public GameObject Map;
      
 
-    void mapOpen ()
+    public void mapOpen ()
     {
         Map.SetActive(true);
     }
 
-    void mapClose()
+    public void mapClose()
     {
         Map.SetActive(false);
     }
@@ -21,6 +21,11 @@ public class MapSystem : MonoBehaviour
     public void SceneLoader(string levelName)
     {
         SceneManager.LoadScene(levelName);
+    }
+
+    public void ApplicationQuit()
+    {
+        Application.Quit();
     }
 
 

@@ -21,5 +21,9 @@ public class PointManager : MonoBehaviour
         PlayerPrefsManager.taketaPoints += 1;
         PlayerPrefsManager.UpdatePoints();
     }
-
+    public void IncreasePointsChika()
+    {
+        PlayerPrefsManager.chikaPoints += 1;
+        PlayerPrefsManager.UpdatePoints();
+    }
 }

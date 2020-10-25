@@ -48,7 +48,7 @@ MonoBehaviour:
   loadTag: 
   startID: 0
   curFocusID: 0
-  currentID: 59919
+  currentID: 83000
   autosave: 1
   previewPanning: 0
   currentDiag: 15
@@ -58,25 +58,22 @@ MonoBehaviour:
   S_playerDiags:
   - commentCount: 2
     s_comment:
-    - text: "As I open the door I feel like I\u2019ve entered a different world,
-        The air here seems a lot clearer and it smells like fresh brewed coffee,
-        lucky me I think."
+    - text: "I\u2019m finally done! "
       extraData: ExtraData
       inputSetIndex: 0
-      outputNodeIndex: 4
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 0
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
         y: 63
         width: 30
-        height: 78
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: There is a man who looks to be about 30 years old at the counter who
-        smiles at me.
+    - text: 'It only took 4 hours but I did it, '
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: -1
@@ -94,53 +91,8 @@ MonoBehaviour:
     ID: 0
     rect:
       serializedVersion: 2
-      x: -630
-      y: -140
-      width: 348
-      height: 233
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Latte?
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 3
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Mocca?
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
-    rect:
-      serializedVersion: 2
-      x: 530
-      y: -100
+      x: -430
+      y: 50
       width: 348
       height: 153
     pTag: 
@@ -148,13 +100,13 @@ MonoBehaviour:
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
-  - commentCount: 1
+    isPlayer: 0
+  - commentCount: 5
     s_comment:
-    - text: Mocca, please.
+    - text: 'I finished unpacking!! '
       extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 7
+      inputSetIndex: 1
+      outputNodeIndex: 2
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -163,28 +115,182 @@ MonoBehaviour:
         y: 63
         width: 30
         height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: Way to go me...
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "It\u2019s like 3 hours more than what I initially planned "
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "but no worries I still got time to do something else today, like for
+        an example I could go look around the town to see what\u2019s up. "
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 2
     rect:
       serializedVersion: 2
-      x: 950
-      y: -20
+      x: 250
+      y: 40
       width: 348
-      height: 129
+      height: 275
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 5
     s_comment:
-    - text: Latte, please.
+    - text: "I think I would like to check out the famous cafe first since all I\u2019ve
+        heard about it has been nothing but praise."
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: 1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "From the looks of things it\u2019s going to take a whopping 3 minutes
+        to walk there! "
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "My wallet is going to suffer from all the coffee I\u2019m going to be
+        consuming ehehehe. "
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
+    rect:
+      serializedVersion: 2
+      x: 650
+      y: 70
+      width: 348
+      height: 315
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 5
+    s_comment:
+    - text: 
       extraData: ExtraData
       inputSetIndex: 3
-      outputNodeIndex: 6
+      outputNodeIndex: 4
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -196,69 +302,54 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 3
-    rect:
-      serializedVersion: 2
-      x: 950
-      y: -160
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Welcome! What would you like to order?
+    - text: I feel a cold breeze as I begin walking to the cafe
       extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: 5
+      inputSetIndex: 3
+      outputNodeIndex: 4
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 4
-    rect:
-      serializedVersion: 2
-      x: -260
-      y: -110
-      width: 348
-      height: 139
-    pTag: Bartender
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: ' I look at the menu and decide to order.'
+    - text: 
       extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 1
+      inputSetIndex: 3
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Latte or Mocca?
+    - text: 
       extraData: ExtraData
-      inputSetIndex: 5
+      inputSetIndex: 3
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "I\u2019ve always liked summer more since I can\u2019t stand the cold."
+      extraData: ExtraData
+      inputSetIndex: 3
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -274,501 +365,182 @@ MonoBehaviour:
     ID: 5
     rect:
       serializedVersion: 2
-      x: 120
-      y: -90
+      x: 1260
+      y: 330
       width: 348
-      height: 163
+      height: 245
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 3
     s_comment:
-    - text: Coming right up!
+    - text: "I\u2019m already outside the famous cafe huh, that was way quicker than
+        3 minutes, "
       extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 9
-      outActionIndex: -1
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: 2
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: well..
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: no time to waste, let's go.
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 6
     rect:
       serializedVersion: 2
-      x: 1320
-      y: -160
+      x: 1660
+      y: 190
       width: 348
-      height: 129
-    pTag: Bartender
+      height: 202
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Coming right up!
-      extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: 8
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: BackgroundOn
+    nameIndex: 2
+    methodIndex: 7
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - BackgroundOn
+    - SpeechClick
+    - SetPlayerChoice
+    nameOpts:
+    - '[No object]'
+    - MapManager
+    - UIManager
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: -20
+      y: 20
+      width: 200
+      height: 170
+    ID: 1
+    outPlayerIndex: 1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: townBackgroundOn
+    nameIndex: 2
+    methodIndex: 8
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - BackgroundOn
+    - townBackgroundOn
+    - SpeechClick
+    - SetPlayerChoice
+    nameOpts:
+    - '[No object]'
+    - MapManager
+    - UIManager
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 1030
+      y: 120
+      width: 200
+      height: 170
+    ID: 4
+    outPlayerIndex: 3
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: MapManager
+    methodName: SceneLoader
+    nameIndex: 1
+    methodIndex: 3
+    paramIndex: 2
+    opts:
+    - '[No method]'
+    - mapOpen
+    - mapClose
+    - SceneLoader
+    nameOpts:
+    - '[No object]'
+    - MapManager
+    - UIManager
+    param_bool: 0
+    param_string: Cafe
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2030
+      y: 220
+      width: 200
+      height: 190
     ID: 7
-    rect:
-      serializedVersion: 2
-      x: 1320
-      y: -20
-      width: 348
-      height: 129
-    pTag: Bartender
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: The man smiles at me again and starts preparing my order.
-      extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: 11
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "As I wait I look around the room and my eye catches a girl who\u2019s
-        around my age sitting in the corner of the room playing on her phone, I wonder
-        if she goes to the same school as me..."
-      extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 8
-    rect:
-      serializedVersion: 2
-      x: 1690
-      y: 30
-      width: 348
-      height: 233
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: The man smiles at me again and starts preparing my order.
-      extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: 10
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "As I wait I look around the room and my eye catches a girl who\u2019s
-        around my age sitting in the corner of the room playing on her phone, I wonder
-        if she goes to the same school as me..."
-      extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 9
-    rect:
-      serializedVersion: 2
-      x: 1690
-      y: -200
-      width: 348
-      height: 233
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Your latte, sir!
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 12
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 10
-    rect:
-      serializedVersion: 2
-      x: 2090
-      y: -160
-      width: 348
-      height: 129
-    pTag: Bartender
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Your mocca, sir!
-      extraData: ExtraData
-      inputSetIndex: 11
-      outputNodeIndex: 13
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 11
-    rect:
-      serializedVersion: 2
-      x: 2090
-      y: 70
-      width: 348
-      height: 129
-    pTag: Bartender
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 6
-    s_comment:
-    - text: Oh sorry!
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 14
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I proceed to pay for my latte and go see where I should sit.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I sit down and taste my latte.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: YUM!
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "It tastes amazing! It\u2019s almost too good, could this be a conspiracy."
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "I\u2019m spacing out again, since I didn\u2019t notice the girl from
-        earlier is now sitting right in front of me."
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 12
-    rect:
-      serializedVersion: 2
-      x: 2490
-      y: -260
-      width: 348
-      height: 294
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 6
-    s_comment:
-    - text: Oh sorry!
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 15
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I proceed to pay for my mocca and go see where I should sit.
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I sit down and taste my mocca.
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: YUM!
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "It tastes amazing! It\u2019s almost too good, could this be a conspiracy."
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: "I\u2019m spacing out again, since I didn\u2019t notice the girl from
-        earlier is now sitting right in front of me."
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    rect:
-      serializedVersion: 2
-      x: 2480
-      y: 40
-      width: 348
-      height: 294
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: 'Heyy, wassup! Are you the one who just moved here? '
-      extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 14
-    rect:
-      serializedVersion: 2
-      x: 2900
-      y: -200
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Comment...
-      extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 15
-    rect:
-      serializedVersion: 2
-      x: 2910
-      y: 100
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  S_actionNodes: []
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
   S_selNodes: []
